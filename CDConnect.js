@@ -14,10 +14,10 @@ const configurationFile = require("./modules/configuration/configurationFile")
     PATH SE CONFIGURA EN EL ARCHIVO configurationFile.js en la carpeta modules/configuration
  */
 var REQUEST = 'Esto es un mensaje de prueba'.toString();
-var PRIVKEY = config.PRIV_KEY;
-var APIKEY = config.API_KEY;
-var USERNAME =  config.USERNAME;
-var PASSWORD = config.PASSWORD;
+var PRIVKEY = 'your provate key';
+var APIKEY = 'your api key';
+var USERNAME =  'you user name';
+var PASSWORD = 'Your Password';
 var HOSTNAME = configurationFile.apihub[0]["securityTest"]["hostName"];
 var PATH = configurationFile.apihub[0]["securityTest"].endpoints[0]["postSecurity"];
 /*
