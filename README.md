@@ -10,7 +10,7 @@ Proyecto para el consumo de APIs desde un cliente generico para todas las apis d
 Para la instalación de las dependencias se deberá ejecutar el siguiente comando:
 
 ```shell
-
+ npm install
 ```
 
 
